@@ -67,7 +67,7 @@ Click on triggers on Prod stage and select After Stage. Select QA in the stages 
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- The deployments to QA and Prod should be enabled with Approvals from approvers only.
+5.) The deployments to QA and Prod should be enabled with Approvals from approvers only.
  Edit the release definition.
 Select QA stage, and on left side click on PreDeployment Condition.
 Enable Pre-Deployment approvals, and provide the name of QA deployment approvers in the approvers list. Approvers will be notified when there is a deployment request on QA enviornment. 
